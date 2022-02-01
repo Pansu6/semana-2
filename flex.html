@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio Flex</title>
+    <link rel="stylesheet" href="./css/style1.css" />
+  </head>
+
+  <body>
+    <form action="#">
+      <fieldset>
+        <legend>Personalizar hamburguesa</legend>
+
+        <h2>Ingredientes</h2>
+        <label for="pimiento">Pimiento</label>
+        <input type="checkbox" name="ingredientes" id="pimiento" />
+        <label for="queso">Queso</label>
+        <input type="checkbox" name="ingredientes" id="queso" />
+        <label for="cebolla">Cebolla</label>
+        <input type="checkbox" name="ingredientes" id="cebolla" />
+        <label for="jamon">Jamón</label>
+        <input type="checkbox" name="ingredientes" id="jamon" />
+        <label for="huevo">Huevo</label>
+        <input type="checkbox" name="ingredientes" id="huevo" />
+
+        <h2>Tamaño</h2>
+        <label for="peque">Pequeña</label>
+        <input type="radio" name="size" id="peque" />
+        <label for="mediano">Mediana</label>
+        <input type="radio" name="size" id="mediano" />
+        <label for="grande">Grande</label>
+        <input type="radio" name="size" id="grande" />
+      </fieldset>
+      <fieldset>
+        <legend>Datos de entrega</legend>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" required />
+        <label for="adress">Dirección</label>
+        <input type="text" name="adress" id="adress" required />
+        <label for="telefono">Teléfono</label>
+        <input type="tel" name="telefono" id="telefono" required />
+        <label for="instrucciones">Instrucciones especiales</label>
+        <textarea
+          name="instrucciones"
+          id="instrucciones"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Método de pago</legend>
+        <select name="pay" id="pay" required>
+          <option value="">tipo de pago</option>
+          <option value="card">Targeta de débito</option>
+          <option value="cardb">Targeta de crédito</option>
+          <option value="efectivo">efectivo</option>
+        </select>
+      </fieldset>
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>
