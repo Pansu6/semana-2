@@ -1,4 +1,24 @@
 body {
   background-image: url(/img/hamburguesa.png);
+  background-size: cover;
   image-rendering: crisp-edges;
+  text-align: center;
+  font-family: sans-serif;
+}
+legend {
+  font-weight: bold;
+  font-size: 2rem;
+  color: blue;
+}
+label {
+  font-style: italic;
+}
+p label {
+  display: block;
+}
+h2 {
+  font-size: 1.3rem;
+}
+fieldset {
+  border: 0;
 }
